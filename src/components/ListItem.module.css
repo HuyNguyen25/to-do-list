@@ -1,0 +1,37 @@
+.card {
+    width: 500px;
+    padding-left: 5%;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+@media(max-width: 600px) {
+    .card {
+        width: 70vw;
+    }
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.todo {
+    border: none;
+    outline: none;
+    width: 90%;
+    font-size: large;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.deleteButton {
+    padding: 5px;
+}
